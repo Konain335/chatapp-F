@@ -1,0 +1,42 @@
+# ======================
+# ENV (only ONE, in root)
+# ======================
+.env
+
+# ======================
+# Node modules (root + frontend)
+# ======================
+node_modules/
+F/node_modules/
+
+# ======================
+# Build folders
+# ======================
+F/build/
+F/dist/
+F/dist-ssr/
+B/build/
+B/dist/
+
+# ======================
+# Logs
+# ======================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ======================
+# Editor / OS files
+# ======================
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.local
