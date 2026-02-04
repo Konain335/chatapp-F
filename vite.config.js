@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://chatapp-b-production-fe3a.up.railway.app',
+        target: 'https://chatapp-b-s43c.vercel.app/',
         secure: false,
       }
     }

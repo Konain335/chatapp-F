@@ -22,7 +22,7 @@ export const SocketContextProvider = ({ children }) => {
 
     useEffect(() => {
         if (authUser) {
-            const socket = io('https://chatapp-b-production-fe3a.up.railway.app', {
+            const socket = io('https://chatapp-b-s43c.vercel.app/', {
                 query: {
                     userId: authUser._id,
                 }
