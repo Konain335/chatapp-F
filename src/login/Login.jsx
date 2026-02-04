@@ -23,7 +23,7 @@ const Login = () => {
         e.preventDefault()
         setLoading(true)
         try {
-            const login = await axios.post(`https://chatapp-b-production-fe3a.up.railway.app/api/auth/login`, userInput)
+            const login = await axios.post(`https://chatapp-b-s43c.vercel.app/api/auth/login`, userInput)
             const data = login.data;
             if (data.success === false) {
                 setLoading(false)
